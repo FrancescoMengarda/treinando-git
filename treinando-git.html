@@ -10,24 +10,30 @@
 "use strict"
 
 
+function recebeNotas () {
+    let notas = []
 
+    for(i = 0; i < 3; i++){
+        notas[i] = prompt(`Digite a ${i + 1} nota`)
+    
+            
+            return notas
+    }
+}
+  function calcularMedia(notas) {
+    let media = 0 
 
+    for (let index = 0; index < notas.length; index++) {
+       media += notas[index]
+    
+    }
+return media / 3
 
+}
 
         
     
-    
 
-
-
-/*O script deve cadastrar três notas de um aluno e mostrar a média dessas notas.
-Para isso, o script deve implementar as seguintes funções:
-
-1) cadastrarNotas() -> Retorna um vetor com 3 notas
-2) calculaMedia(notas) -> Retorna a média de um vetor de notas
-3) mostraMedia(media) -> Mostrar a média (com arredondamento de duas casas decimais) em um alert.
-
-Ao final, faça o merge das três branches.*/
 
     </script>
     
