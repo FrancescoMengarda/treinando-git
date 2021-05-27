@@ -14,35 +14,12 @@ function recebeNotas () {
 
     for(i = 0; i < 3; i++){
         notas[i] = prompt(`Digite a ${i + 1} nota`)
-            
-            
-            return notas
-    }
-}
-
-function calcularMedia(notas){
-
-}
-function mostrarMedia(media){
-  
-
-
-alert (`a media do aluno foi ${media}`)
-
-
-}
-
-function recebeNotas () {
-    let notas = []
-
-    for(i = 0; i < 3; i++){
-        notas[i] = prompt(`Digite a ${i + 1} nota`)
     
             
             return notas
     }
 }
-  function calcularMedia(notas) {
+function calcularMedia(notas) {
     let media = 0 
 
     for (let index = 0; index < notas.length; index++) {
@@ -52,13 +29,16 @@ function recebeNotas () {
 return media / 3
 
 }
+function mostrarMedia(media){
+  
 
-        
-    
+alert (`a media do aluno foi ${media}`)
+  
 
-
-
-
+}
+recebeNotas()
+calculeMedia(notas)
+mostrarMedia(media)
 
     </script>
     
